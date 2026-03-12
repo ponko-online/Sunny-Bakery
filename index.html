@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700&display=swap" rel="stylesheet">
+    <title>Sunny Bakery</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div id="loading">
+      <div class="loader">
+        <span>🥐</span>
+        <span>🍞</span>
+        <span>🥖</span>
+      </div>
+      <p>Now Baking......</p>
+    </div>
+    <!-- header -->
+    <header>
+      <h1 class="logo">
+        Sunny Bakery <span>🥐</span>
+      </h1>
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#about" class="nav-link">  
+          <span>A</span>
+          <span>b</span>
+          <span>o</span>
+          <span>u</span>
+          <span>t</span>
+        </a>
+        <a href="#menu" class="nav-link">
+          <span>M</span>
+          <span>e</span>
+          <span>n</span>
+          <span>u</span>
+        </a>
+        <a href="#gallery" class="nav-link">
+          <span>G</span>
+          <span>a</span>
+          <span>l</span>
+          <span>l</span>
+          <span>e</span>
+          <span>r</span>
+          <span>y</span>
+        </a>
+        <a href="#access" class="nav-link">
+          <span>A</span>
+          <span>c</span>
+          <span>c</span>
+          <span>e</span>
+          <span>s</span>
+          <span>s</span>
+        </a>
+        <a href="#contact" class="nav-link">
+          <span>C</span>
+          <span>o</span>
+          <span>n</span>
+          <span>t</span>
+          <span>a</span>
+          <span>c</span>
+          <span>t</span>
+        </a>
+      </nav>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+      <img
+        src="https://publicdomainq.net/images/201808/28s/publicdomainq-0025689tlg.jpg.pagespeed.ce.Jev_4VT-pn.jpg"
+        alt="焼きたてパン"
+        class="hero-img"
+      />
+      <div class="hero-text">
+        <h1 class="hero-title">Sunny Bakery</h1>
+        <p class="hero-sub">焼きたてパンのお店</p>
+        <a href="#menu" class="btn hero-btn">Menuを見る</a>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="fade-in">
+      <h2>About</h2>
+      <p>Sunny Bakeryは毎日焼きたてパンをお届けするお店です。</p>
+    </section>
+
+    <!-- Menu -->
+    <section id="menu" class="fade-in">
+      <h2>Menu</h2>
+      <div class="menu-grid">
+        <div class="menu-card">
+          <img
+            src="https://photo-pot.com/wp-photo/wp-content/uploads/2021/10/pan7.jpg"
+            alt="クロワッサン"
+          />
+          <h3>クロワッサン</h3>
+          <p>¥300</p>
+        </div>
+        <div class="menu-card">
+          <img
+            src="https://gahag.net/img/201510/27s/gahag-0019194564-1.jpg"
+            alt="食パン"
+          />
+          <h3>食パン</h3>
+          <p>¥400</p>
+        </div>
+        <div class="menu-card">
+          <img
+            src="https://www.free-materials.com/adm/wp-content/uploads/2015/04/adpDSC_8021-.jpg"
+            alt="メロンパン"
+          />
+          <h3>メロンパン</h3>
+          <p>¥250</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="fade-in">
+      <h2>Gallery</h2>
+      <div class="gallery-container">
+        <img
+          src="https://publicdomainq.net/images/201808/28s/publicdomainq-0025689tlg.jpg.pagespeed.ce.Jev_4VT-pn.jpg"
+          class="gallery-img active"
+        />
+        <img
+          src="https://www.free-materials.com/adm/wp-content/uploads/2016/11/adtDSC_3160.jpg"
+          class="gallery-img"
+        />
+        <img
+          src="https://www.free-materials.com/adm/wp-content/uploads/2018/09/adpDSC_0970-.jpg"
+          class="gallery-img"
+        />
+        <!-- ループ用に同じ画像をもう一度追加 -->
+        <img
+          src="https://publicdomainq.net/images/201808/28s/publicdomainq-0025689tlg.jpg.pagespeed.ce.Jev_4VT-pn.jpg"
+          class="gallery-img active"
+        />
+        <img
+          src="https://www.free-materials.com/adm/wp-content/uploads/2016/11/adtDSC_3160.jpg"
+          class="gallery-img"
+        />
+        <img
+          src="https://www.free-materials.com/adm/wp-content/uploads/2018/09/adpDSC_0970-.jpg"
+          class="gallery-img"
+        />
+      </div>
+    </section>
+
+    <!-- Access -->
+    <section id="access" class="fade-in">
+      <h2>Access</h2>
+      <div class="access-container">
+        <div class="map">
+          <!-- Google Map埋め込み or 画像 -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2203.8095239417758!2d139.7464335843381!3d35.66791187543923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b91f07551fb%3A0xf26a46e851a54585!2z44CSMTA1LTAwMDEg5p2x5Lqs6YO95riv5Yy66JmO44OO6ZaA77yS5LiB55uu77yT4oiS77yR77yX!5e0!3m2!1sja!2sjp!4v1773112271275!5m2!1sja!2sjp"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+        </div>
+          <div class="info">
+            <p>〒123-4567 東京都〇〇区△△町1-2-3</p>
+            <p>最寄駅：〇〇駅 徒歩5分</p>
+            <p>営業時間：10:00〜20:00</p>
+            <p>駐車場あり</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="fade-in">
+      <h2>Contact</h2>
+      <div class="contact-container">
+        <!-- お問い合わせフォーム -->
+        <form class="contact-form">
+          <label for="name">お名前</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="例：山田太郎"
+            required
+          />
+
+          <label for="email">メールアドレス</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="example@example.com"
+            required
+          />
+
+          <label for="message">お問い合わせ内容</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="内容を入力してください"
+            required
+          ></textarea>
+
+          <button type="submit">送信</button>
+        </form>
+
+        <!-- 連絡先情報 -->
+        <div class="contact-info card">
+          <p>〒123-4567 東京都〇〇区△△町1-2-3</p>
+          <p>電話：03-1234-5678</p>
+          <p>Email：info@mooncafe.jp</p>
+          <p>営業時間：10:00〜20:00</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2026 Sunny Bakery</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
